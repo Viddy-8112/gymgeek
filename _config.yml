@@ -21,7 +21,7 @@
 title: GymGeek
 email: your@email.com
 description: Workout plans, supplement reviews, and gear guides for South African athletes.
-baseurl: ""
+baseurl: "/gymgeek"
 url: "https://gymgeek.co.za"
 
 # Build settings
