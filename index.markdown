@@ -27,7 +27,7 @@ layout: home
   <div class="section-label">Latest articles</div>
   <div class="cards">
     {% for post in site.posts limit:3 %}
-    <a href="{{ post.url }}" class="card">
+    <a href="{{ post.url | relative_url }}" class="card">
       <span class="card-slash"></span>
       <div class="card-tag">{{ post.categories[0] }}</div>
       <div class="card-title">{{ post.title }}</div>
