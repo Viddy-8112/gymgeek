@@ -1,18 +1,30 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div class="hero">
+  <div class="hero-eyebrow">About me</div>
+  <h1 class="hero-headline">About<br><em>GymGeek.</em></h1>
+  <p class="hero-sub">GymGeek is a South African fitness resource built by a gymrat, for gymrats— not sponsored athletes.</p>
+</div>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<div class="slash-divider"></div>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<div class="section">
+  <p class="post-content">
+    I've been training for 3 years with a focus on bodybuilding and strength and it all started off with a weight loss journey — from 115kg down to 75kg in my first year of training.
+    <br>
+    I cover workout plans, supplement reviews, and gear guides with one goal in mind — giving South African gym-goers honest, practical information without the hype.
+    <br>
+    I also have a background in I.T. so everything you're seeing is hand-coded by me. Pretty tops bru!
+  </p>
+  <br>
+  <p class="post-content">
+    Every supplement reviewed is available locally. Every price quoted is in rands. Every workout plan is written for real schedules and real budgets.
+  </p>
+  <br>
+  <p class="post-content">
+    Some links on this site are affiliate links — if you buy through them, I earn a small commission at no extra cost to you. That's how I keep the lights on.
+  </p>
+</div>
