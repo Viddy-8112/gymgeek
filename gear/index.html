@@ -1,0 +1,26 @@
+---
+layout: default
+title: Gear
+---
+
+<div class="hero">
+  <div class="hero-eyebrow">Gear & Equipment</div>
+  <h1 class="hero-headline">Right<br><em>tools.</em></h1>
+  <p class="hero-sub">Home gym setups, equipment comparisons, and gear guides — all priced in rands.</p>
+</div>
+
+<div class="slash-divider"></div>
+
+<div class="section">
+  <div class="section-label">All gear articles</div>
+  <div class="cards">
+    {% for post in site.categories.Gear %}
+    <a href="{{ post.url }}" class="card">
+      <span class="card-slash"></span>
+      <div class="card-tag">{{ post.categories[0] }}</div>
+      <div class="card-title">{{ post.title }}</div>
+      <div class="card-meta">{{ post.date | date: "%b %d, %Y" }}</div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
