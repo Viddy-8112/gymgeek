@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PPL - The Workout Split that fits Everyone"
-categories: workouts
+categories: Workouts
 description: "Life gets often gets busy. Sometimes the most we can realistically manage is 3 days per week in the gym. This is where PPL comes in clutch."
 ---
 
