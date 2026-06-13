@@ -17,10 +17,10 @@ layout: home
 <div class="featured">
   <div>
     <div class="featured-tag">Featured guide</div>
-    <div class="featured-title">Best protein supplements in SA — 2026</div>
-    <p class="featured-desc">We tested 12 brands available locally. Here's what actually works, and what's worth your rands.</p>
+    <div class="featured-title">PPL - The Split that Suits EVERYONE</div>
+    <p class="featured-desc">Learn about PPL and why it suits a busy schedule.</p>
   </div>
-  <a href="/nutrition/best-protein-supplements-south-africa/" class="featured-badge">Read guide</a>
+  <a href="/nutrition/2026-06-03-ppl-article/" class="featured-badge">Read guide</a>
 </div>
 
 <div class="section">
