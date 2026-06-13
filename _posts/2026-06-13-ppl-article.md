@@ -22,7 +22,7 @@ Here's what you could do: <br>
 -Cable Triceps Pushdown: 3x12 (Hypertophy)<br>
 -Lateral Raises: 4x12 (Hypertrophy for side delts - for broader shoulders)<br>
 -Cable Triceps Overhead Extensions: 3x12 (Hypertrophy)<br>
--Chest Cable Flies: 3x15 (Hypertrophy)<br><br>
+-Chest Cable Flies: 3x15 (Hypertrophy)<br>
 
 Boom - Day 1 done in an hour. <br>
 
