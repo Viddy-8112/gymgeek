@@ -9,7 +9,7 @@ When you're on the move and don't have time to stop for a meal, protein shakes c
 
 ## USN Super M: 
 
-![SuperM](/gymgeek/assets/supermprotein.web)
+![SuperM](/gymgeek/assets/supermprotein.webp)
 
 **Macros:**<br>
 Protein = 22g <br>
@@ -26,7 +26,7 @@ The calorie to protein ratio is pretty good as well. The only tradeoff is the 15
 
 ## Woolworths Protein Shakes: 
 
-![WWProtein](/gymgeek/assets/woolworthsproteinshake.web)
+![WWProtein](/gymgeek/assets/woolworthsproteinshake.webp)
 
 **Macros:**<br>
 Protein = 28g <br>
@@ -43,7 +43,7 @@ This protein shake went to private school, so you'll only find it in Woolies sto
 
 ## USN Super M: 
 
-![SuperM](/gymgeek/assets/supermprotein.web)
+![SuperM](/gymgeek/assets/supermprotein.webp)
 
 **Macros:**<br>
 Protein = 22g <br>
