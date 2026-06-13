@@ -26,7 +26,7 @@ The calorie to protein ratio is pretty good as well. The only tradeoff is the 15
 
 ## Woolworths Protein Shakes: 
 
-![WWProtein](/gymgeek/assets/woolworthsproteinshake.webp)
+![WWProtein](/gymgeek/assets/woolworthsproteinshake.jpg)
 
 **Macros:**<br>
 Protein = 28g <br>
