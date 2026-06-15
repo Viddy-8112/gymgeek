@@ -19,7 +19,7 @@ layout: home
     <div class="featured-title">PPL - The Split that Suits EVERYONE</div>
     <p class="featured-desc">Learn about PPL and why it suits a busy schedule.</p>
   </div>
- <a href="{{'/workouts/2026-06-13-ppl-article/' | relative_url }}" class="featured-badge">Read guide</a>
+ <a href="{{'/workouts/ppl-article/' | relative_url }}" class="featured-badge">Read guide</a>
 </div>
 
 <div class="section">
