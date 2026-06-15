@@ -8,7 +8,6 @@ layout: home
   <p class="hero-sub">Workout plans, supplement reviews, and gear guides — built for South African athletes and beginners alike.</p>
   <div class="cta-row">
     <a href="/workouts/" class="cta-primary">Browse workouts</a>
-    <span class="cta-secondary">or explore supplements →</span>
   </div>
 </div>
 
@@ -20,7 +19,7 @@ layout: home
     <div class="featured-title">PPL - The Split that Suits EVERYONE</div>
     <p class="featured-desc">Learn about PPL and why it suits a busy schedule.</p>
   </div>
- <a href="{{ '/workouts/2026-06-03-ppl-article/' | relative_url }}" class="featured-badge">Read guide</a>
+ <a href="{{'/workouts/2026-06-13-ppl-article/' | relative_url }}" class="featured-badge">Read guide</a>
 </div>
 
 <div class="section">
