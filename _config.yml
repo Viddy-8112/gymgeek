@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: GymGeek
-email: your@email.com
+email: davidfrancispillay@gmail.com
 description: Workout plans, supplement reviews, and gear guides for South African athletes.
-baseurl: "/gymgeek"
+baseurl: ""
 url: "https://gymgeek.co.za"
 
 # Build settings

@@ -7,7 +7,7 @@ layout: home
   <h1 class="hero-headline">Train<br><em>harder.</em><br>Know more.</h1>
   <p class="hero-sub">Workout plans, supplement reviews, and gear guides — built for South African athletes and beginners alike.</p>
   <div class="cta-row">
-    <a href="/workouts/" class="cta-primary">Browse workouts</a>
+    <a href="{{ '/workouts/' | relative_url }}" class="cta-primary">Browse workouts</a>
   </div>
 </div>
 
