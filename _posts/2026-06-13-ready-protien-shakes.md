@@ -11,7 +11,7 @@ When you're on the move and don't have time to stop for a meal, protein shakes c
 
 ## USN Super M: 
 
-![SuperM](/gymgeek/assets/supermprotein.webp)
+![SuperM](/assets/supermprotein.webp)
 
 **Macros:**<br>
 Protein = 22g <br>
@@ -29,7 +29,7 @@ The calorie to protein ratio is pretty good as well. The only tradeoff is the 15
 ---
 ## Woolworths Protein Shakes: 
 
-![WWProtein](/gymgeek/assets/woolworthsproteinshake.jpg)
+![WWProtein](/assets/woolworthsproteinshake.jpg)
 
 **Macros:**<br>
 Protein = 28g <br>
@@ -47,7 +47,7 @@ This protein shake went to private school, so you'll only find it in Woolies sto
 ---
 ## First Choice High Protein: 
 
-![FirstChoice](/gymgeek/assets/firstchoiceproteinshake.webp)
+![FirstChoice](/assets/firstchoiceproteinshake.webp)
 
 **Macros:**<br>
 Protein = 21g <br>
@@ -66,7 +66,7 @@ These shakes come with a bonus of added amino acids to aid recovery. Decent prot
 ---
 ## Barebells Protein Shake: 
 
-![Barebells](/gymgeek/assets/barebellproteinshake.webp)
+![Barebells](/assets/barebellproteinshake.webp)
 
 **Macros:**<br>
 Protein = 24g <br>
@@ -82,7 +82,7 @@ The Barebells Protein Shake comes from Sweden and comes in at a whopping price o
 ---
 ## Grenade Protein Shake: 
 
-![Grenade](/gymgeek/assets/grenadeproteinshake.webp)
+![Grenade](/assets/grenadeproteinshake.webp)
 
 **Macros:**<br>
 Protein = 26g <br>
@@ -99,7 +99,7 @@ I think you're after interesting flavours, Grenade gives you a show. But just li
 ---
 ## Parmalat Protein+ : 
 
-![Parmalat](/gymgeek/assets/parmalatprotein.webp)
+![Parmalat](/assets/parmalatprotein.webp)
 
 **Macros:**<br>
 Protein = 20g <br>
@@ -117,7 +117,7 @@ I've seen these guys stocked at Checkers, PnP and SPAR.
 ---
 ## PRIMAL Protein Shakes : 
 
-![PRIMAL](/gymgeek/assets/primalprotein.webp)
+![PRIMAL](/assets/primalprotein.webp)
 
 **Macros:**<br>
 Protein = 25g <br>
@@ -145,7 +145,7 @@ There's another brand I chose to leave out and that's the **GNC Lean Shake** ava
 
 **USN Super M**
 
-![SuperM](/gymgeek/assets/supermprotein.webp)
+![SuperM](/assets/supermprotein.webp)
 
 This protein shake gives you the most protein value for your money, and I've recently had no trouble finding them - even at garages. The low price and the high availability are what pushed Super M to the top. Not to mention, who doesn't love a Super M? 
 
