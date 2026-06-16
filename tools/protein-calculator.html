@@ -1,0 +1,141 @@
+---
+layout: default
+title: Daily Protein Calculator
+description: "Free daily protein calculator for South African athletes. Based on the Mifflin-St Jeor equation and ISSN guidelines."
+---
+
+<div class="hero">
+  <div class="hero-eyebrow">Free tool</div>
+  <h1 class="hero-headline">Daily Protein<br><em>Calculator.</em></h1>
+  <p class="hero-sub">Find out exactly how much protein your body needs each day based on your stats and goals.</p>
+</div>
+
+<div class="slash-divider"></div>
+
+<div class="section">
+  <div class="gg-calc">
+
+    <div class="gg-unit-row">
+      <div class="gg-unit active" id="unit-metric" onclick="setUnit('metric')">KG / CM</div>
+      <div class="gg-unit" id="unit-imperial" onclick="setUnit('imperial')">LBS / IN</div>
+    </div>
+
+    <div class="gg-row">
+      <div class="gg-field">
+        <label class="gg-label" id="weight-label">Weight (kg)</label>
+        <input class="gg-input" type="number" id="weight" placeholder="75">
+      </div>
+      <div class="gg-field">
+        <label class="gg-label" id="height-label">Height (cm)</label>
+        <input class="gg-input" type="number" id="height" placeholder="175">
+      </div>
+    </div>
+
+    <div class="gg-row">
+      <div class="gg-field">
+        <label class="gg-label">Age</label>
+        <input class="gg-input" type="number" id="age" placeholder="25">
+      </div>
+      <div class="gg-field">
+        <label class="gg-label">Gender</label>
+        <select class="gg-select" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="gg-row">
+      <div class="gg-field full">
+        <label class="gg-label">Activity Level</label>
+        <select class="gg-select" id="activity">
+          <option value="1.2">Sedentary (little or no exercise)</option>
+          <option value="1.375">Lightly active (1–3 days/week)</option>
+          <option value="1.55" selected>Moderately active (3–5 days/week)</option>
+          <option value="1.725">Very active (6–7 days/week)</option>
+          <option value="1.9">Extremely active (athlete / physical job)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="gg-row">
+      <div class="gg-field full">
+        <label class="gg-label">Fitness Goal</label>
+        <select class="gg-select" id="goal">
+          <option value="lose">Lose weight / cut</option>
+          <option value="maintain" selected>Maintain weight</option>
+          <option value="build">Build muscle / bulk</option>
+        </select>
+      </div>
+    </div>
+
+    <button class="cta-primary" style="width:100%; margin-top:8px; border:none; cursor:pointer; padding:14px;" onclick="calculate()">Calculate my protein</button>
+    <div class="gg-error" id="error">Please fill in all fields before calculating.</div>
+
+    <div class="gg-result" id="result">
+      <div class="slash-divider" style="margin: 32px 0 24px;"></div>
+      <div class="gg-result-main">
+        <span class="gg-result-num" id="result-num">0</span>
+        <span class="gg-result-unit">g / day</span>
+      </div>
+      <div class="gg-result-label">Your daily protein target</div>
+      <p class="gg-result-desc" id="result-desc"></p>
+      <p class="gg-formula-note">BMR calculated using the Mifflin-St Jeor equation. Protein targets based on ISSN guidelines.</p>
+    </div>
+
+  </div>
+</div>
+
+<script>
+let unit = 'metric';
+
+function setUnit(u) {
+  unit = u;
+  document.getElementById('unit-metric').classList.toggle('active', u === 'metric');
+  document.getElementById('unit-imperial').classList.toggle('active', u === 'imperial');
+  document.getElementById('weight-label').textContent = u === 'metric' ? 'Weight (kg)' : 'Weight (lbs)';
+  document.getElementById('height-label').textContent = u === 'metric' ? 'Height (cm)' : 'Height (in)';
+  document.getElementById('weight').placeholder = u === 'metric' ? '75' : '165';
+  document.getElementById('height').placeholder = u === 'metric' ? '175' : '69';
+}
+
+function calculate() {
+  const weightRaw = parseFloat(document.getElementById('weight').value);
+  const heightRaw = parseFloat(document.getElementById('height').value);
+  const age = parseFloat(document.getElementById('age').value);
+  const gender = document.getElementById('gender').value;
+  const activity = parseFloat(document.getElementById('activity').value);
+  const goal = document.getElementById('goal').value;
+  const error = document.getElementById('error');
+
+  if (!weightRaw || !heightRaw || !age) {
+    error.style.display = 'block';
+    return;
+  }
+  error.style.display = 'none';
+
+  const weightKg = unit === 'metric' ? weightRaw : weightRaw * 0.453592;
+  const heightCm = unit === 'metric' ? heightRaw : heightRaw * 2.54;
+
+  let bmr;
+  if (gender === 'male') {
+    bmr = (10 * weightKg) + (6.25 * heightCm) - (5 * age) + 5;
+  } else {
+    bmr = (10 * weightKg) + (6.25 * heightCm) - (5 * age) - 161;
+  }
+
+  const tdee = bmr * activity;
+  const multipliers = { lose: 2.0, maintain: 1.8, build: 2.2 };
+  const protein = Math.round(weightKg * multipliers[goal]);
+
+  const descs = {
+    lose: `Based on your stats, your body burns around ${Math.round(tdee)} kcal per day. To preserve muscle while cutting, you need around ${protein}g of protein daily.`,
+    maintain: `Your body burns around ${Math.round(tdee)} kcal per day. At your activity level, ${protein}g of protein per day will support muscle repair and overall health.`,
+    build: `Your body burns around ${Math.round(tdee)} kcal per day. To maximise muscle growth, aim for ${protein}g of protein daily alongside a slight calorie surplus.`
+  };
+
+  document.getElementById('result-num').textContent = protein;
+  document.getElementById('result-desc').textContent = descs[goal];
+  document.getElementById('result').classList.add('show');
+}
+</script>
