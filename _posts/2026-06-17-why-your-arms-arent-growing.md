@@ -13,6 +13,8 @@ A lot people just spam bicep curls and expect massive pythons, however the upper
 - The Long Head <br> 
 - The Lateral Head<br> 
 
+![TricepsDiagram](/assets/tricepsdiagram.png)<br> 
+
 Essentially, if you neglect the triceps, you're leaving a whole lot of gains and mass on the table.<br>
 Get these muscles big, and your arm gets a whole new definition and size. Here's the exercises I have on speed dial to effectively target them:<br>
 
@@ -38,6 +40,8 @@ Similar to the triceps, the biceps consist of 3 heads as well: <br>
 - Long Head<br>
 - Short Head<br>
 - Brachialis<br> 
+
+![BicepsDiagram](/assets/bicepdiagram.png)<br>
 
 A common mistake I see is that gymers often just spam curls hoping to grow their biceps. Any type of standard curl is good enough to target the shorthead, but if you want to make significant arm gains, you should be hitting all 3 heads with dedicated exercises. In addition to cable or dumbell curls, here's what I do to target each head:<br> 
 
