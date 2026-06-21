@@ -3,6 +3,7 @@ layout: post
 title: "Why Your Arms Aren't Growing"
 categories: Workouts
 description: "Ever been unsatisfied with the growth of your arms? I have before, and here's how I fixed it."
+image: /assets/thumbnails/arms-article.jpg
 ---
 
 ## Don't neglect triceps

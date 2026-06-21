@@ -3,6 +3,7 @@ layout: post
 title: "On-The-Go Protein Shakes: Which one is the cream of the crop?"
 categories: Nutrition
 description: "I tried 7 locally-available ready-to-drink protein shakes and here's what I think."
+image: /assets/thumbnails/protein-shake-article.jpg
 ---
 
 When you're on the move and don't have time to stop for a meal, protein shakes come in handy to boost your protein intake numbers. Most of them give you exactly what you need, but some are the better choices over others. 

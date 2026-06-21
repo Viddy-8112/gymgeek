@@ -3,6 +3,7 @@ layout: post
 title: "5 Tips to Maximize Strength"
 categories: Workouts
 description: "Here are 5 practical tips to help you maximize your stength in the gym."
+image: /assets/thumbnails/strength-article.jpg
 ---
 
 Ever feel sluggish, tired or fatigued during a workout? Perhaps you noticed that you're not lifting as much weight as you did the week before. Here are 5 things I have in place before hitting my next session. 

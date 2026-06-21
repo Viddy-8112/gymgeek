@@ -3,6 +3,7 @@ layout: post
 title: "PPL - The Workout Split that fits Everyone"
 categories: Workouts
 description: "Life gets often gets busy. Sometimes the most we can realistically manage is 3 days per week in the gym. This is where PPL comes in clutch."
+image: /assets/thumbnails/ppl-article.jpg
 ---
 
 Whether you're busy throughout the week - work, school, family - or just don't want to spend your whole week in the gym, the PPL split is the answer for a lot of people. 

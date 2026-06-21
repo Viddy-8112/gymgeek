@@ -2,16 +2,17 @@
 layout: post
 title: "Glute Guide: How To Get Caked Up"
 categories: Workouts
-description: "Guy or girl, glutes are an important muscle group - I give you reasons why they're important and surefire exercises to train them."
+description: "Guy or girl, glutes are an important muscle group - I give you reasons why they're important and surefire exercises to train them"
+image: /assets/thumbnails/glutes-article.jpg
 ---
 I reckon a lot of guys saw this article and scrolled past it. But if you're here, you're about to learn why your butt is a bootyful asset.<br>
 
 ## Why Your Posterior is Important
-1. ***Reduced Back Pain***: Strong glutes help support your lower back by evenly distributing load throughout it. This means your back wont break when you're carrying something or even when you're sitting down.<br>
+1. ***Reduced Back Pain***: Strong glutes help support your lower back by evenly distributing load throughout it. This means your back won't break when you're carrying something or even when you're sitting down.<br>
 
 2. ***Improved Posture***: The cheeks are positioned central to the spinal column and at the base of the pelvis. Maintaining their strenght will allow for proper alignment of the pelvis, spine and shoulders, thereby improving your posture. Good posture also improves your balance.<br>
 
-3. ***Reduced Knee Pain***: Your ankles, knees and hips are connected in one chain, and at the top of it all is your butt. So an injury in one part of the chain, can issues in other parts as well. For example, twisting your ankle can cause issues upward at the knee or hip as well. A weak and unstable bum can cause your thigh bone to rotate inward too much, and since everything is chain-connected, your knee caps can move out of its normal path.<br>
+3. ***Reduced Knee Pain***: Your ankles, knees and hips are connected in one chain, and at the top of it all is your butt. So an injury in one part of the chain, can cause issues in other parts as well. For example, twisting your ankle can cause issues upward at the knee or hip as well. A weak and unstable bum can cause your thigh bone to rotate inward too much, and since everything is chain-connected, your knee caps can move out of its normal path.<br>
 
 4. ***Improved Athletic Performance***: Your butt helps with something called "forward propulsion". This is anything that involves moving forward such as walking, running and jumping. Additionally, whenever you squat, bench, deadlift, row or even just doing curls, you are using your glutes to stabilize (whether you realize it or not). Stronger glutes, means stronger all around.<br>
 

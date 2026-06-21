@@ -331,3 +331,17 @@ a { color: inherit; text-decoration: none; }
 .gg-result-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #6B7C3A; margin-bottom: 16px; }
 .gg-result-desc { font-family: 'Source Serif 4', serif; font-size: 15px; color: rgba(240,230,211,0.7); line-height: 1.7; margin-bottom: 16px; }
 .gg-formula-note { font-size: 11px; color: rgba(240,230,211,0.3); line-height: 1.6; }
+
+
+.card-image {
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.card {
+  align-self: start;
+}

@@ -27,10 +27,13 @@ layout: home
   <div class="cards">
     {% for post in site.posts limit:3 %}
     <a href="{{ post.url | relative_url }}" class="card">
+      {% if post.image %}
+      <div class="card-image" style="background-image: url('{{ post.image }}')"></div>
+      {% endif %}
       <span class="card-slash"></span>
       <div class="card-tag">{{ post.categories[0] }}</div>
       <div class="card-title">{{ post.title }}</div>
-      <div class="card-meta">{{ post.date | date: "%b %d, %Y" }} &middot; {{ post.read_time | default: "5 min read" }}</div>
+      <div class="card-meta">{{ post.date | date: "%b %d, %Y" }}</div>
     </a>
     {% endfor %}
   </div>

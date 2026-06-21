@@ -3,6 +3,7 @@ layout: post
 title: "How Much Protein Do You Need?"
 categories: Nutrition
 description: "Find out why protein is an essential nutrient and how much of it you should be eating per day."
+image: /assets/thumbnails/protein-article.jpg
 ---
 
 ## Protein: The Bare Essential
