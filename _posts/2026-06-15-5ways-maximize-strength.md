@@ -41,7 +41,9 @@ Here's how I tackle it on a Leg Day:<br>
 - My first warm up will be 60kg for 10 reps. 
 - My second warm up will be 80kg for 6 reps.
 - My first working set will be 110kg for as many reps as I can.
-- I'll then drop the weight slightly and do more reps for my next 3 working sets. 
+- I'll then drop the weight slightly and do more reps for my next 3 working sets.<br>
+
+This is just an example of my warmups. Warm up according to your capacity and make sure you're not fatiguing yourself before your working sets. Think of it as making mash - the potatoes have to be warm before you smash them.<br> 
 
 
 ## 4. Do Cardio AFTER Your Weight Training
