@@ -11,7 +11,7 @@ Ever feel sluggish, tired or fatigued during a workout? Perhaps you noticed that
 ## 1. Pre-Gym Meal Timing 
 Going into the gym hungry leaves you with no fuel in the tank. At the same time, doing a workout after having just eaten is just as detrimental to your strength. The best way to strike the perfect balance between the two is ***timing your meals***.<br>
 
-After eating your meal, blood moves to your digestive tract to aid in digestion. Now, add in working muscles while digestion is taking place - blood shifts away from your digestive tract and towards your working muscles. This can lead to a whole bunch of issues, such as nausea, cramping, bload and acid reflux (indigestion). Your body is trying to support muscles under distress and food in the belly at the same - this confusion is what makes you say, "Bru, I'm just not feeling it today."<br> 
+After eating your meal, blood moves to your digestive tract to aid in digestion. Now, add in working muscles while digestion is taking place - blood shifts away from your digestive tract and towards your working muscles. This can lead to a whole bunch of issues, such as nausea, cramping, bloating and acid reflux (indigestion). Your body is trying to support muscles under distress and food in the belly at the same - this confusion is what makes you say, "Bru, I'm just not feeling it today."<br> 
 
 At the same time, if the last meal was 4 or 6 hours ago, your muscles have no resources to use during the lift, causing you to fatigue quickly.<br> 
 
@@ -31,15 +31,15 @@ To help you picture this: <br>
 - My protein source would be half the amount of carbs (I usually go for chicken breast, lean steak or canned tuna - beef and other fatty meats are harder to digest)<br>
 - The remainder of the plate would be a healthy fat (avocado, feta cheese, a knob of butter or a drizzle of olive oil).<br>
 
-It's good to note that if you're already cooking your protein in olive or butter, you don't have to add more fats on top of that. <br>
+It's good to note that if you're already cooking your protein in olive oil or butter, you don't have to add more fats on top of that. <br>
 
 ## 3. Start With Your Compound Exercise and PR Set
 The start of your workout is when your muscles will be the freshest and strongest. You haven't used up any energy yet and fatigue hasn't started to creep in. If you're shooting for a PR, I recommend that you first do a couple warm-up sets for your compound exercise, then jump straight into your PR weight in your first working set. A compound exercise is any big movement that uses multiple muscles such as Squats, Deadlift, Bench Press or Pull Ups. After that, drop the weight slightly to crank out more reps for the rest of your next sets. <br>
 
 Here's how I tackle it on a Leg Day:<br>
 - My PR for Squats is 110kg for 4 reps
-- My first warm up will be 60kg for 15 reps. 
-- My second warm up will be 80kg for 10 reps.
+- My first warm up will be 60kg for 10 reps. 
+- My second warm up will be 80kg for 6 reps.
 - My first working set will be 110kg for as many reps as I can.
 - I'll then drop the weight slightly and do more reps for my next 3 working sets. 
 
