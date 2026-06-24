@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On-The-Go Protein Shakes: Which one is the cream of the crop?"
+title: "On-The-Go Protein Shakes: Which One To Choose?"
 categories: Nutrition
 description: "I tried 7 locally-available ready-to-drink protein shakes and here's what I think."
 image: /assets/thumbnails/protein-shake-article.jpg
