@@ -33,7 +33,7 @@ A 12g serving might seem like a little but if you actually weigh it out, it's mo
 You can grab these from any store.<br>
 
 ## 3. Simply Delish Sugar Free Jelly
-![jelly](/assets/snacks/jelly.png)
+![jelly](/assets/snacks/jelly.jpg)
 Serving Size: 100ml (a full box makes 500ml)<br>
 Calories: 2.5 cal<br>
 
@@ -42,7 +42,7 @@ A bonus is that if you eat the whole thing, you're also consuming 500ml of water
 I've seen this stocked at Checkers, DisChem and PnP, but you'd have a higher chance of finding them at DisChem.<br>
 
 ## 4. Simply Delish Instant Pudding
-![pudding](/assets/snacks/sdpudding.png)
+![pudding](/assets/snacks/sdpudding.jpg)
 Serving Size: 1/4 of the total mixture<br>
 Calories: 25 cals for the Chocolate flavour & 20 cals for the Strawberry/Vanilla<br>
 
@@ -74,7 +74,7 @@ The main issue we have with normal chocolate is that, you promise yourself to on
 These guys are available everywhere.<br>
 
 ## 7. EZEE Noodles 
-![noodles](/assets/snacks/ezeenoodles.webp)
+![noodles](/assets/snacks/ezeenoodles.jpg)
 Serving Size: 65g (one packet)<br>
 Calories: 70 cal<br>
 
