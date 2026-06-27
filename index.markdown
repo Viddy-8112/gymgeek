@@ -2,12 +2,15 @@
 layout: home
 ---
 
-<div class="hero">
-  <div class="hero-eyebrow">South Africa's fitness resource</div>
-  <h1 class="hero-headline">Train<br><em>harder.</em><br>Know more.</h1>
-  <p class="hero-sub">Workout plans, supplement reviews, and gear guides — built for South African athletes and beginners alike.</p>
-  <div class="cta-row">
-    <a href="{{ '/workouts/' | relative_url }}" class="cta-primary">Browse workouts</a>
+<div class="parallax-hero">
+  <div class="parallax-overlay"></div>
+  <div class="parallax-content">
+    <div class="hero-eyebrow">South Africa's fitness resource</div>
+    <h1 class="hero-headline">Train<br><em>harder.</em><br>Know more.</h1>
+    <p class="hero-sub">For Anything and Everything Gym — built for South African athletes and beginners alike.</p>
+    <div class="cta-row">
+      <a href="{{ '/workouts/' | relative_url }}" class="cta-primary">Browse workouts and fitness articles</a>
+    </div>
   </div>
 </div>
 
