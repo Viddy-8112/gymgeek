@@ -3,7 +3,7 @@ layout: post
 title: "How To Build An Aesthetic Physique"
 categories: Workouts
 description: "Optimize your physique to make you start looking more jacked sooner - here's how."
-image: /assets/thumbnails/glutes-article.jpg
+image: /assets/thumbnails/aestheticphys-article.jpg
 --- 
 
 There's something about a guy who walks into a room and immediately, people think, "Yeah, this ou lifts."<br>
