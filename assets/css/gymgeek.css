@@ -455,3 +455,15 @@ a { color: inherit; text-decoration: none; }
   color: rgba(240,230,211,0.4);
   font-family: 'Source Serif 4', serif;
 }
+
+/* PROGRESS BAR */
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #E85D26;
+  z-index: 9999;
+  transition: width 0.1s ease;
+}

@@ -3,6 +3,7 @@ layout: home
 ---
 
 <div class="parallax-hero">
+  <div id="particles" style="position:absolute;inset:0;z-index:0;"></div>
   <div class="parallax-overlay"></div>
   <div class="parallax-content">
     <div class="hero-eyebrow">South Africa's fitness resource</div>

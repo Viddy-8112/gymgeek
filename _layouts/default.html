@@ -25,8 +25,9 @@
     gtag('config', 'G-EMS5WHW7F7');
   </script>
 </head>
-<body>
 
+<body>
+<div id="progress-bar"></div>
 <nav class="site-nav">
   <a href="{{ '/' | relative_url }}" class="site-logo">GymGeek</a>
   <div class="nav-links">
@@ -91,6 +92,85 @@
         noResultsText: '<div class="search-no-results">No articles found.</div>'
       });
     });
+  </script>
+
+  <script>
+    window.addEventListener('load', function() {
+      const el = document.querySelector('.hero-headline');
+      if (!el) return;
+
+      // Only run on homepage
+      if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
+
+      const lines = ['Train', 'harder.', 'Know more.'];
+      const colors = [null, '#E85D26', null];
+      el.innerHTML = '';
+
+      let lineIndex = 0;
+      let charIndex = 0;
+      let currentSpan = null;
+
+      function type() {
+        if (lineIndex >= lines.length) return;
+
+        if (charIndex === 0) {
+          currentSpan = document.createElement('span');
+          if (colors[lineIndex]) currentSpan.style.color = colors[lineIndex];
+          el.appendChild(currentSpan);
+        }
+
+        const line = lines[lineIndex];
+        currentSpan.textContent += line[charIndex];
+        charIndex++;
+
+        if (charIndex < line.length) {
+          setTimeout(type, 80);
+        } else {
+          if (lineIndex < lines.length - 1) {
+            el.appendChild(document.createElement('br'));
+          }
+          lineIndex++;
+          charIndex = 0;
+          setTimeout(type, 200);
+        }
+      }
+
+      type();
+    });
+</script>
+
+  <div id="progress-bar"></div>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      const bar = document.getElementById('progress-bar');
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = (scrollTop / docHeight) * 100;
+      bar.style.width = progress + '%';
+    });
+  </script>
+
+  <script>
+    // Fade in on load
+    document.body.style.opacity = '0';
+    window.addEventListener('load', function() {
+      document.body.style.transition = 'opacity 0.1s ease';
+      document.body.style.opacity = '1';
+    });
+
+    // Fade out on navigation
+    document.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (!href || href.startsWith('#') || href.startsWith('mailto') || this.target === '_blank') return;
+        e.preventDefault();
+        document.body.style.opacity = '0';
+        setTimeout(function() {
+          window.location.href = href;
+        }, 100);
+      });
+    }); 
   </script>
 </body>
 </html>
