@@ -56,7 +56,7 @@ description: "GymGeek is a South African fitness resource built by a gymrat, for
         <a href="mailto:davidfrancispillay+gymgeek@email.com" class="cta-primary" style="display: inline-block; margin-top: 4px;">Send me an email</a>
         <br><br>
         <div class="author-links">
-          My Socials:<br><br>
+          My Socials:<br>
           <a href="https://www.instagram.com/gymgeek.za?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
             <i class="fa-brands fa-instagram"></i>
           </a>
