@@ -55,7 +55,7 @@ Maintain a slight bend forward, slowly lower the weight as far down as possibly 
 
 **Complemented with well-developed arms**<br>
 There's no point having a good chest and huge back with small arms. Well developed arms make your physique look well-rounded and honestly, who doesn't want big arms?<br>
-I've written a full-on guide to building your arms and you can check it out [here](/_posts/2026-06-17-why-your-arms-arent-growing.md).<br>
+I've written a full-on guide to building your arms and you can check it out [here](/workouts/why-your-arms-arent-growing/).<br>
 
 ---
 So there you have it - the secret to looking better in shirts from early on in your training journey.<br>
