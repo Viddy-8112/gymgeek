@@ -14,7 +14,7 @@ A lot people just spam bicep curls and expect massive pythons, however the upper
 - The Long Head <br> 
 - The Lateral Head<br> 
 
-![TricepsDiagram](/assets/tricepsdiagram.png)<br> 
+![TricepsDiagram](/assets/tricepsdiagram.webp)<br> 
 
 Essentially, if you neglect the triceps, you're leaving a whole lot of gains and mass on the table.<br>
 Get these muscles big, and your arm gets a whole new definition and size. Here's the exercises I have on speed dial to effectively target them:<br>
@@ -28,7 +28,7 @@ This part of your tricep adds density and mass to your arm. To target it, you mu
 This is the most visible part of your tricep from the side. Hitting this ou will give you the arm definition that you're after. Your palms need to be either facing each other, at a slight angle or facing the ground:<br>
 1. Rope Cable Pushdown: Keep your elbows fixed at your sides (only your forearm should be moving), push the rope down and flare it slightly at the bottom of the push.<br> 
 2. Bent Bar Cable Pushdown: Grab a bar that zigzags or is bent and do the exact same movement as above.<br>
-![Pushdown](/assets/triceppushdown.png)<br>
+![Pushdown](/assets/triceppushdown.jpg)<br>
 
 **Tricep Medial Head:**<br>
 This is known as the "workhorse" of the triceps as it's active during every single tricep movement. Because of its hidden position, you can't really target it specifically, but you can strenghten it to max out your overall tricep capacity. These movements require max exertion from your triceps and therefore, make them absolutely stacked: 
@@ -42,7 +42,7 @@ Similar to the triceps, the biceps consist of 3 heads as well: <br>
 - Short Head<br>
 - Brachialis<br> 
 
-![BicepsDiagram](/assets/bicepdiagram.png)<br>
+![BicepsDiagram](/assets/bicepdiagram.webp)<br>
 
 A common mistake I see is that gymers often just spam curls hoping to grow their biceps. Any type of standard curl is good enough to target the shorthead, but if you want to make significant arm gains, you should be hitting all 3 heads with dedicated exercises. In addition to cable or dumbell curls, here's what I do to target each head:<br> 
 

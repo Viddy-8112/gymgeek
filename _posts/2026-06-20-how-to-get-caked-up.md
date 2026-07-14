@@ -34,12 +34,12 @@ This exercise is a leg day staple for me. Not only will it build your glutes, bu
 Pro Tip: Play around with the wideness of your foot stance to find the most comfortable position for you. I usually stand with feet at shoulder-width apart, but never beyond that.<br>
 
 **3. Hip Abduction Machine**<br>
-![HipAbduction](/assets/hipabduction.png)
+![HipAbduction](/assets/hipabduction.jpg)
 If you're gym has this machine, it's perfect to isolate the outer hips and glutes. There's no need to worry about form as the machine handles that for you and you'll feel the butt burn as you start.<br>
 Pro Tip: It's easy easy to confuse this with the Hip Adduction Machine. "Abduction" targets the glutes, "Adduction" targets the inner quads.<br>
 
 **4. Glute Bridges**<br>
-![GluteBridge](/assets/glutebridge.png)<br>
+![GluteBridge](/assets/glutebridge.jpg)<br>
 An easy bodyweight exercise you can do at home. It also targets some of the quad muscles. Even though it's convenient, it will effectively hit your glutes and leave you sore, especially if you're new to it.<br>
 Pro Tip: Make sure your arms remain flat against the ground even as you push your hips upward, and at the top of the thrust, make sure to squeeze the glutes.<br>
 
