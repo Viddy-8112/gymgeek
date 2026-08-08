@@ -3,7 +3,7 @@ layout: post
 title: "A Blueprint to Cutting"
 categories: Nutrition
 description: "Here's everything you should know to start cutting and losing fat"
-image: /assets/thumbnails/deload-article.webp
+image: /gymgeek/assets/thumbnails/fat-loss-article.jpg
 ---
 
 Cutting can be a daunting thing to do. I spent a whole year and some change doing a cut and I'm here to tell you everything I did (and everything I recommend you do too) to smash your weight loss goals.<br>

@@ -17,7 +17,7 @@ title: Gear
     {% for post in site.categories.Gear %}
     <a href="{{ post.url | relative_url }}" class="card">
         {% if post.image %}
-        <div class="card-image" style="background-image: url('{{ post.image }}')"></div>
+        <div class="card-image" style="background-image: url('{{ post.image | relative_url }}')"></div>
         {% endif %}
         <span class="card-slash"></span>
         <div class="card-tag">{{ post.categories[0] }}</div>

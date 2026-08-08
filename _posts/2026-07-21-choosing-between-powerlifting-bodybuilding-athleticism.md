@@ -3,7 +3,7 @@ layout: post
 title: "Bodybuilding vs Powerlifting vs Athleticism: Which Suits You?"
 categories: Workouts
 description: "There's more than one way to train. Each has their own benefits and drawbacks - here's how to pick the right one for you."
-image: /assets/thumbnails/training-style-article.webp
+image: /gymgeek/assets/thumbnails/training-style-article.webp
 ---
 
 GymGeek asked it's Instagram followers what topic they wanted us to write about and this week, we've chosen **@thenotorious_73**'s request.<br>

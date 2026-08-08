@@ -3,7 +3,7 @@ layout: post
 title: "Glute Guide: How To Get Caked Up"
 categories: Workouts
 description: "Guy or girl, glutes are an important muscle group - I give you reasons why they're important and surefire exercises to train them"
-image: /assets/thumbnails/glutes-article.jpg
+image: /gymgeek/assets/thumbnails/glutes-article.jpg
 ---
 I reckon a lot of guys saw this article and scrolled past it. But if you're here, you're about to learn why your butt is a bootyful asset.<br>
 

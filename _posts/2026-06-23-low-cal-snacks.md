@@ -3,7 +3,7 @@ layout: post
 title: "Low Calorie Snacks in S.A."
 categories: Nutrition
 description: "Everyone gets snackish - here are a few of my go-to snacks that save on calories but still scratch the craving."
-image: /assets/thumbnails/snacks-article.jpg
+image: /gymgeek/assets/thumbnails/snacks-article.jpg
 ---
 
 Whether you're watching the game, binging a series or studying/working, snacks cravings can hit you harder than your mom's sandals. Any fruit or veggie is an amazing and healthy low calorie snacks, but sometimes all you want is a salty or sweet satisfaction.<br>
