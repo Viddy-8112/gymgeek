@@ -25,7 +25,7 @@ The V-Taper is often characterized by the following muscle features:<br>
 - Proportionally large traps (not so big that it looks like you have no neck)
 - Complemented with well-developed arms 
 
-![vtaper](/assets/vtaper.jpg)
+![vtaper](/gymgeek/assets/vtaper.jpg)
 
 These features all taper down towards your waist and make you look extremely strong in a shirt even if your abs are not yet quite there.<br>
 A huge plus of the V-Taper is that developing these upper body features makes your waist appear narrower.<br>

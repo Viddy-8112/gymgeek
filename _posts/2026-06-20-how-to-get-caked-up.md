@@ -24,27 +24,27 @@ As always, I simplified these points a lot, so if you want you want to read more
 These exercises always left my bum burning and helped me build up my gluteal strength.<br>
 
 **1. Lunges**<br>
-![Lunges](/assets/lunges.png)<br>
+![Lunges](/gymgeek/assets/lunges.png)<br>
 This exercise will finish you and leave your butt sore the next day. This an excellent bodyweight exercise for building and shaping the entire upper leg and glutes. If your strong enough, you can increase the muscle growth stimulation by carrying dumbbells or kettle bells in each hand.<br>
 Pro Tip: Make sure your knees ***never*** touch the ground to keep constant tension on the muscles.<br>
 
 **2. Romanian Deadlifts (RDLs)**<br>
-![RDL](/assets/rdl.png)<br>
+![RDL](/gymgeek/assets/rdl.png)<br>
 This exercise is a leg day staple for me. Not only will it build your glutes, but it will also give your hamstrings density and definition. RDLs can be done with bodyweight or ,for more stimulation, use a bar, dumbbells or kettle bells in each hand.<br>
 Pro Tip: Play around with the wideness of your foot stance to find the most comfortable position for you. I usually stand with feet at shoulder-width apart, but never beyond that.<br>
 
 **3. Hip Abduction Machine**<br>
-![HipAbduction](/assets/hipabduction.jpg)
+![HipAbduction](/gymgeek/assets/hipabduction.jpg)
 If you're gym has this machine, it's perfect to isolate the outer hips and glutes. There's no need to worry about form as the machine handles that for you and you'll feel the butt burn as you start.<br>
 Pro Tip: It's easy easy to confuse this with the Hip Adduction Machine. "Abduction" targets the glutes, "Adduction" targets the inner quads.<br>
 
 **4. Glute Bridges**<br>
-![GluteBridge](/assets/glutebridge.jpg)<br>
+![GluteBridge](/gymgeek/assets/glutebridge.jpg)<br>
 An easy bodyweight exercise you can do at home. It also targets some of the quad muscles. Even though it's convenient, it will effectively hit your glutes and leave you sore, especially if you're new to it.<br>
 Pro Tip: Make sure your arms remain flat against the ground even as you push your hips upward, and at the top of the thrust, make sure to squeeze the glutes.<br>
 
 **5. Hip Thrusts**<br>
-![HipThrust](/assets/hipthrust.webp)<br>
+![HipThrust](/gymgeek/assets/hipthrust.webp)<br>
 Glute Bridges taken to the next level. This is a strength-based version of the glute bridge and is tops for building the glutes. You'll need a bench, a barbell and ideally a thick towel or bar pad to cushion your hips against the weight of the bar.<br>
 Pro Tip: To find the best position, do a practice thrust without any weights - you're legs should form a 90 degree angle at the top of the thrust. You will notice that your shoulders and upper back roll off of the bench at the bottom of the thrust - this is normal, just make sure your bench has enough padding to minimize discomfort.<br>
 

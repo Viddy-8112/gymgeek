@@ -16,7 +16,7 @@ Let's jump in:<br>
 
 ---
 ## POWERLIFTING 
-![Powerlifting](/assets/training-styles/powerlift-rhino.webp)
+![Powerlifting](/gymgeek/assets/training-styles/powerlift-rhino.webp)
 **The Focus**<br>
 Powerlifting focuses on purely building strength over time.<br>
 Powerlifters' main goal is maximize the weights they push through 'progressive overload' - gradually adding weight over time.<br>
@@ -55,7 +55,7 @@ If you're main goal is to become an absolute beast and be strong as hell, powerl
 
 ---
 ## Athletic training
-![Athlete](/assets/training-styles/athlete-panther.webp)
+![Athlete](/gymgeek/assets/training-styles/athlete-panther.webp)
 Athletic training goes beyond building muscle and strength.<br>
 It's actually meant to make your body a more useful tool in sports outside of gym like soccer, olympics or martial arts, for example.<br>
 
@@ -110,7 +110,7 @@ If you're using this training style to optimize your body for a sport outside of
 
 ---
 ## BODYBUILDING 
-![Bodybuilder](/assets/training-styles/bodybuild-lion.webp)
+![Bodybuilder](/gymgeek/assets/training-styles/bodybuild-lion.webp)
 Bodybuilding focuses on getting your muscles to grow by targetting them specifically and achieving a growth stimulus. <br><br>
 Bodybuilders focus on technique over power. Specific exercises may be favored over others because they target the target more effectively. For example, a bodybuilder may prefer cable chest flies instead of dumbbell flies because it gives more consistent tension and limits shoulder work.<br><br>
 In this training style, gymers are more mindful about growing body parts in proportion, producing metabolic stress (a pump) or maximizing their aesthetics by targeting specific muscles. For example, a lot of bodybuilders put more emphasis into training the upper chest (incline presses/flies) over the lower chest (standard or decline presses/flies). For a full deep dive into aesthetic training, check out my [article](/workouts/building-aesthetic-physique/).<br><br>
