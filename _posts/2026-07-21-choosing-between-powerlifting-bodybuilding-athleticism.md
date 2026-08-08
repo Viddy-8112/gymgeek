@@ -113,7 +113,7 @@ If you're using this training style to optimize your body for a sport outside of
 ![Bodybuilder](/gymgeek/assets/training-styles/bodybuild-lion.webp)
 Bodybuilding focuses on getting your muscles to grow by targetting them specifically and achieving a growth stimulus. <br><br>
 Bodybuilders focus on technique over power. Specific exercises may be favored over others because they target the target more effectively. For example, a bodybuilder may prefer cable chest flies instead of dumbbell flies because it gives more consistent tension and limits shoulder work.<br><br>
-In this training style, gymers are more mindful about growing body parts in proportion, producing metabolic stress (a pump) or maximizing their aesthetics by targeting specific muscles. For example, a lot of bodybuilders put more emphasis into training the upper chest (incline presses/flies) over the lower chest (standard or decline presses/flies). For a full deep dive into aesthetic training, check out my [article](/workouts/building-aesthetic-physique/).<br><br>
+In this training style, gymers are more mindful about growing body parts in proportion, producing metabolic stress (a pump) or maximizing their aesthetics by targeting specific muscles. For example, a lot of bodybuilders put more emphasis into training the upper chest (incline presses/flies) over the lower chest (standard or decline presses/flies). For a full deep dive into aesthetic training, check out my [article](/gymgeek/workouts/building-aesthetic-physique/).<br><br>
 Bodybuilders rely on 'progressive overload' as a way to measure their growth and keep growing.<br> 
 
 **2 Ways To Progressive Overload:**
@@ -132,7 +132,7 @@ Bodybuilders rely on 'progressive overload' as a way to measure their growth and
 
 **The Lifstyle**<br>
 Bodybuilders can get super science-y about their training by timing tempo, tracking training volume and weight progression over time, and even tracking macros (carbs, fats, proteins, even sodium intake) they consume to the gram. However, this is only in the case of professional and competing bodybuilders (like C-Bum or Ramon Dino). It's completely possible to factor in foods you love into your diet while maintaining a caloric goal.<br>
-If you're an average ou like me, all you need is a couple sets to failure per exercise and making sure you're eating enough protein (check out my protein [calculator](/tools/protein-calculator)).<br>
+If you're an average ou like me, all you need is a couple sets to failure per exercise and making sure you're eating enough protein (check out my protein [calculator](/gymgeek/tools/protein-calculator)).<br>
 
 ---
 ## HELPING YOU FIND YOUR PATH

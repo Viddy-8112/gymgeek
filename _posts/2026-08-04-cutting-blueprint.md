@@ -20,7 +20,7 @@ Your body will start burning your fat as a fuel source since your main source of
 You can go as aggressive or slow with your calorie deficit/cut. A more aggressive cut means eating a lot less calories (usually around -1000 calories) and losing weight faster. A slower cut means eating a little less calories than your maintenance (usually around -300 calories) and you'll lose weight slower (best option for retaining as muscle as possible).<br>
 I don't recommend eating anything less than -1000 calories below your maintenence because at that point, it becomes unhealthy and you're probably starving yourself.<br>
 
-By the time this article is released, I will have also published my free daily calorie calculator. Check it out [here](/tools/calorie-calculator/).<br>
+By the time this article is released, I will have also published my free daily calorie calculator. Check it out [here](/gymgeek/tools/calorie-calculator/).<br>
 
 Play around with the inputs to see how many calories you need to eat to lose weight:<br>
 - Pick 0.5kg per week : if you want as much as possible and don't mind losing weight slower.<br>

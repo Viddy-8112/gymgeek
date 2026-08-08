@@ -31,7 +31,7 @@ layout: home
     {% for post in site.posts limit:3 %}
     <a href="{{ post.url | relative_url }}" class="card">
       {% if post.image %}
-      <div class="card-image" style="background-image: url('{{ post.image }}')"></div>
+      <div class="card-image" style="background-image: url('{{ post.image | relative_url }}')"></div>
       {% endif %}
       <span class="card-slash"></span>
       <div class="card-tag">{{ post.categories[0] }}</div>
