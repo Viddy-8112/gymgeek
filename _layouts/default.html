@@ -84,7 +84,7 @@
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
+        json: '{{ "/search.json" | relative_url }}',
         searchResultTemplate: `
           <a href="{url}">
             <div class="card-tag">{category}</div>
