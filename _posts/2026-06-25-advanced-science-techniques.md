@@ -3,7 +3,7 @@ layout: post
 title: "Advanced Techniques To Grow Muscles According to Science"
 categories: Workouts
 description: "I read a scientific study on techniques that may help grow muscle so you don't have to. Here's what I found out."
-image: /gymgeek/assets/thumbnails/advanced-science-techniques-article.jpg
+image: /assets/thumbnails/advanced-science-techniques-article.jpg
 ---
 
 I recently read <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6950543/">this</a> article published on the National Library of Medicine about maximizing muscle growth(hypertrophy). The article includes every technique they analyzed about hypertrophy, but while all of it has scientific merit, some of them are just not practical to do in the gym when you're strapped for time.<br>

@@ -3,7 +3,7 @@ layout: post
 title: "How To Build An Aesthetic Physique"
 categories: Workouts
 description: "Optimize your physique to make you start looking more jacked sooner - here's how."
-image: /gymgeek/assets/thumbnails/aestheticphys-article.jpg
+image: /assets/thumbnails/aestheticphys-article.jpg
 --- 
 
 There's something about a guy who walks into a room and immediately, people think, "Yeah, this ou lifts."<br>
@@ -25,7 +25,7 @@ The V-Taper is often characterized by the following muscle features:<br>
 - Proportionally large traps (not so big that it looks like you have no neck)
 - Complemented with well-developed arms 
 
-![vtaper](/gymgeek/assets/vtaper.jpg)
+![vtaper](/assets/vtaper.jpg)
 
 These features all taper down towards your waist and make you look extremely strong in a shirt even if your abs are not yet quite there.<br>
 A huge plus of the V-Taper is that developing these upper body features makes your waist appear narrower.<br>
@@ -55,7 +55,7 @@ Maintain a slight bend forward, slowly lower the weight as far down as possibly 
 
 **Complemented with well-developed arms**<br>
 There's no point having a good chest and huge back with small arms. Well developed arms make your physique look well-rounded and honestly, who doesn't want big arms?<br>
-I've written a full-on guide to building your arms and you can check it out [here](/gymgeek/workouts/why-your-arms-arent-growing/).<br>
+I've written a full-on guide to building your arms and you can check it out [here](/workouts/why-your-arms-arent-growing/).<br>
 
 ---
 So there you have it - the secret to looking better in shirts from early on in your training journey.<br>

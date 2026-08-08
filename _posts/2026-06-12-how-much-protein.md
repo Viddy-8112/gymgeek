@@ -3,7 +3,7 @@ layout: post
 title: "How Much Protein Do You Need?"
 categories: Nutrition
 description: "Find out why protein is an essential nutrient and how much of it you should be eating per day."
-image: /gymgeek/assets/thumbnails/protein-article.jpg
+image: /assets/thumbnails/protein-article.jpg
 ---
 
 ## Protein: The Bare Essential
@@ -48,4 +48,4 @@ A lot more than you think.<br>
 It all comes down to various factors, such as your gender, weight, height, activity level and fitness goals.<br> 
 Trying to maintain your weight? You need enough to do so.<br>
 Trying to build muscle? You need a lot more.<br>
-Long story short, I've built a daily protein calculator based on science to tell you how much protein you should aim for based on all of your factors. You can play around with it by clicking [here](/gymgeek/tools/protein-calculator/) to get a personalised daily target based on your stats and goals.<br>
+Long story short, I've built a daily protein calculator based on science to tell you how much protein you should aim for based on all of your factors. You can play around with it by clicking [here](/tools/protein-calculator/) to get a personalised daily target based on your stats and goals.<br>

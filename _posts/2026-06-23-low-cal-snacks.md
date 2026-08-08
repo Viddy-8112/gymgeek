@@ -3,7 +3,7 @@ layout: post
 title: "Low Calorie Snacks in S.A."
 categories: Nutrition
 description: "Everyone gets snackish - here are a few of my go-to snacks that save on calories but still scratch the craving."
-image: /gymgeek/assets/thumbnails/snacks-article.jpg
+image: /assets/thumbnails/snacks-article.jpg
 ---
 
 Whether you're watching the game, binging a series or studying/working, snacks cravings can hit you harder than your mom's sandals. Any fruit or veggie is an amazing and healthy low calorie snacks, but sometimes all you want is a salty or sweet satisfaction.<br>
@@ -15,7 +15,7 @@ Here are some of the not-so-guilty pleasures I have in my pantry for when these 
 They're all affordable and locally available in supermarkets near you.<br>
 
 ## 1. Stanton Biggley Popcorn 
-![popcorn](/gymgeek/assets/snacks/popcorn.webp)
+![popcorn](/assets/snacks/popcorn.webp)
 Serving Size: 20g<br>
 Calories: 70 cal (changes slightly based on flavour)<br>
 
@@ -24,7 +24,7 @@ It comes in flavours of butter, salt & vinegar, white feta and cheese & chives. 
 You can find these in pretty much in store: Checkers, PnP, SPAR. They often go for 'Buy 2' specials at PnP and Checkers.<br>
 
 ## 2. Flings 
-![flings](/gymgeek/assets/snacks/flings.webp)
+![flings](/assets/snacks/flings.webp)
 Serving Size: 12g<br>
 Calories: 58 cal<br>
 
@@ -33,7 +33,7 @@ A 12g serving might seem like a little but if you actually weigh it out, it's mo
 You can grab these from any store.<br>
 
 ## 3. Simply Delish Sugar Free Jelly
-![jelly](/gymgeek/assets/snacks/jelly.jpg)
+![jelly](/assets/snacks/jelly.jpg)
 Serving Size: 100ml (a full box makes 500ml)<br>
 Calories: 2.5 cal<br>
 
@@ -42,7 +42,7 @@ A bonus is that if you eat the whole thing, you're also consuming 500ml of water
 I've seen this stocked at Checkers, DisChem and PnP, but you'd have a higher chance of finding them at DisChem.<br>
 
 ## 4. Simply Delish Instant Pudding
-![pudding](/gymgeek/assets/snacks/sdpudding.jpg)
+![pudding](/assets/snacks/sdpudding.jpg)
 Serving Size: 1/4 of the total mixture<br>
 Calories: 25 cals for the Chocolate flavour & 20 cals for the Strawberry/Vanilla<br>
 
@@ -52,7 +52,7 @@ Your best bet to find these is at DisChem.<br>
 
 
 ## 5. Trigz
-![trigz](/gymgeek/assets/snacks/trigz.png)
+![trigz](/assets/snacks/trigz.png)
 Serving Size: 28g 
 Calories: 105 to 111 cal (depends on the flavour) 
 
@@ -65,7 +65,7 @@ A single serving bag of Doritos has around 217 calories. Trigz is shaped just li
 There was a time where you could only find these but DisChem, but now you can find them at most grocery retailers, particularly Checkers and PnP.<br>
 
 ## 6. Smarties (the small box)
-![smarties](/gymgeek/assets/snacks/smarties.webp)
+![smarties](/assets/snacks/smarties.webp)
 Serving Size: 17g 
 Calories: 80 cal 
 
@@ -74,7 +74,7 @@ The main issue we have with normal chocolate is that, you promise yourself to on
 These guys are available everywhere.<br>
 
 ## 7. EZEE Noodles 
-![noodles](/gymgeek/assets/snacks/ezeenoodles.jpg)
+![noodles](/assets/snacks/ezeenoodles.jpg)
 Serving Size: 65g (one packet)<br>
 Calories: 70 cal<br>
 

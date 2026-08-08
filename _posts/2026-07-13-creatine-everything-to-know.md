@@ -3,7 +3,7 @@ layout: post
 title: "Creatine: Everything You Should Know"
 categories: Nutrition
 description: "There's a lot of misconception and mystery about creatine. I tell you everything you need to know about it."
-image: /gymgeek/assets/thumbnails/creatine-article.jpg
+image: /assets/thumbnails/creatine-article.jpg
 ---
 
 ## The special white powder

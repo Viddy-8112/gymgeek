@@ -57,7 +57,7 @@ description: "GymGeek is a South African fitness resource built by a gymrat, for
         <br><br>
         <div class="author-links">
           My Socials:<br>
-          <a href="https://www.instagram.com/gymgeek.za?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
+          <a href="https://www.instagram.com.za?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
             <i class="fa-brands fa-instagram"></i>
           </a>
           <a href="https://www.linkedin.com/in/david-francis-pillay-991415324/" target="_blank" rel="noopener">

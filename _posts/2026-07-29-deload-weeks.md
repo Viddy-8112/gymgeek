@@ -3,7 +3,7 @@ layout: post
 title: "Deload Weeks: Recharge, Reset, Recovery"
 categories: Workouts
 description: "Lifts going down? Feel more tired than usual?  Motivation in the gutter? Try a deload week."
-image: /gymgeek/assets/thumbnails/deload-article.webp
+image: /assets/thumbnails/deload-article.webp
 ---
 
 
