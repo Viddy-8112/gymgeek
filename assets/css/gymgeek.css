@@ -351,7 +351,7 @@ a { color: inherit; text-decoration: none; }
 .parallax-hero {
   position: relative;
   height: 100vh;
-  background-image: url('gymgeek/assets/parallax/parallax-desktop.webp');
+  background-image: url('/gymgeek/assets/parallax/parallax-desktop.webp');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -375,7 +375,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 768px) {
   .parallax-hero {
     background-attachment: scroll;
-    background-image: url('/assets/parallax/parallax-mobile.webp');
+    background-image: url('/gymgeek/assets/parallax/parallax-mobile.webp');
     height: 80vh;
   }
 }
