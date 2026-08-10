@@ -34,28 +34,33 @@
 <body data-layout="{{ page.layout }}">
   <div id="progress-bar"></div>
   <nav class="site-nav">
-    <a href="{{ '/' | relative_url }}" class="site-logo">GymGeek</a>
-    <div class="nav-links">
-      <a href="{{ '/workouts/' | relative_url }}">Training</a>
-      <a href="{{ '/nutrition/' | relative_url }}">Nutrition</a>
-      <a href="{{ '/gear/' | relative_url }}">Gear</a>
-      <a href="{{ '/tools/' | relative_url }}">Tools</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/games/' | relative_url }}">Games</a>
+  <a href="{{ '/' | relative_url }}" class="site-logo">GymGeek</a>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <div class="nav-links" id="nav-links">
+    <a href="{{ '/workouts/' | relative_url }}">Training</a>
+    <a href="{{ '/nutrition/' | relative_url }}">Nutrition</a>
+    <a href="{{ '/gear/' | relative_url }}">Gear</a>
+    <a href="{{ '/tools/' | relative_url }}">Tools</a>
+    <a href="{{ '/games/' | relative_url }}">Games</a>
+    <a href="{{ '/about/' | relative_url }}">About</a>
+  </div>
+  <div class="nav-search">
+    <div class="search-toggle" onclick="toggleSearch()">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
     </div>
-    <div class="nav-search">
-      <div class="search-toggle" onclick="toggleSearch()">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-      </div>
-      <div class="search-box" id="search-box">
-        <input type="text" id="search-input" class="search-input" placeholder="Search articles...">
-        <div id="results-container" class="search-results"></div>
-      </div>
+    <div class="search-box" id="search-box">
+      <input type="text" id="search-input" class="search-input" placeholder="Search articles...">
+      <div id="results-container" class="search-results"></div>
     </div>
-  </nav>
+  </div>
+</nav>
 
 
   <main>
@@ -273,6 +278,15 @@
       }, 10000);
     }
   </script>
+
+  <script>
+  function toggleMenu() {
+    const nav = document.getElementById('nav-links');
+    const burger = document.getElementById('hamburger');
+    nav.classList.toggle('open');
+    burger.classList.toggle('open');
+  }
+</script>
 
 </body>
 
