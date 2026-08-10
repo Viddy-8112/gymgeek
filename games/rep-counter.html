@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rep Counter - GymGeek</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #1A1208; color: #F0E6D3; font-family: 'Barlow', sans-serif; min-height: 100vh; display: flex; justify-content: center; padding: 40px 20px; }
+.game-wrap { max-width: 600px; width: 100%; }
+.game-eyebrow { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #6B7C3A; margin-bottom: 12px; }
+.game-title { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 48px; text-transform: uppercase; line-height: 1; margin-bottom: 8px; }
+.game-title em { color: #E85D26; font-style: normal; }
+.game-sub { font-size: 14px; color: rgba(240,230,211,0.5); margin-bottom: 32px; }
+
+/* STATS */
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px; }
+.stat { background: rgba(240,230,211,0.05); border: 1px solid rgba(240,230,211,0.08); border-radius: 6px; padding: 14px; text-align: center; }
+.stat-val { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 28px; color: #E85D26; }
+.stat-lbl { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(240,230,211,0.4); margin-top: 4px; }
+
+/* BARBELL */
+.barbell-wrap { display: flex; justify-content: center; margin-bottom: 32px; user-select: none; }
+.barbell { cursor: pointer; transition: transform 0.08s ease; display: flex; align-items: center; gap: 0; }
+.barbell:active { transform: scaleY(0.92) rotate(-2deg); }
+.barbell.clicked { animation: barbellBounce 0.15s ease; }
+@keyframes barbellBounce {
+  0% { transform: scaleY(1) rotate(0deg); }
+  40% { transform: scaleY(0.88) rotate(-3deg); }
+  100% { transform: scaleY(1) rotate(0deg); }
+}
+.plate { border-radius: 4px; background: #333; border: 2px solid #555; }
+.plate-45 { width: 22px; height: 80px; background: linear-gradient(180deg, #c0392b, #922b21); border-color: #e74c3c; }
+.plate-25 { width: 18px; height: 64px; background: linear-gradient(180deg, #2980b9, #1a5276); border-color: #3498db; }
+.plate-10 { width: 14px; height: 50px; background: linear-gradient(180deg, #27ae60, #1e8449); border-color: #2ecc71; }
+.bar { width: 160px; height: 12px; background: linear-gradient(180deg, #aaa, #666, #aaa); border-radius: 3px; }
+.sleeve { width: 24px; height: 16px; background: linear-gradient(180deg, #888, #444, #888); border-radius: 2px; }
+
+/* CLICK FX */
+.click-fx { position: fixed; pointer-events: none; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 22px; color: #E85D26; animation: floatUp 0.8s ease forwards; z-index: 999; }
+@keyframes floatUp {
+  0% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-60px) scale(1.3); }
+}
+
+/* UPGRADES */
+.upgrades-title { font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #6B7C3A; margin-bottom: 16px; }
+.upgrades { display: flex; flex-direction: column; gap: 10px; }
+.upgrade { display: flex; justify-content: space-between; align-items: center; background: rgba(240,230,211,0.05); border: 1px solid rgba(240,230,211,0.08); border-radius: 6px; padding: 14px 18px; transition: border-color 0.2s; }
+.upgrade.affordable { border-color: rgba(232,93,38,0.3); }
+.upgrade.owned { border-color: rgba(107,124,58,0.4); background: rgba(107,124,58,0.08); }
+.upgrade-info { flex: 1; }
+.upgrade-name { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 18px; text-transform: uppercase; }
+.upgrade-desc { font-size: 12px; color: rgba(240,230,211,0.5); margin-top: 2px; }
+.upgrade-count { font-size: 11px; color: #6B7C3A; margin-top: 2px; }
+.upgrade-btn { background: #E85D26; color: #1A1208; font-family: 'Barlow', sans-serif; font-weight: 600; font-size: 12px; padding: 8px 16px; border-radius: 4px; border: none; cursor: pointer; white-space: nowrap; flex-shrink: 0; margin-left: 16px; }
+.upgrade-btn:disabled { background: rgba(240,230,211,0.1); color: rgba(240,230,211,0.3); cursor: not-allowed; }
+.upgrade-btn.owned-btn { background: #6B7C3A; }
+</style>
+</head>
+<body>
+<div class="game-wrap">
+  <div class="game-eyebrow">Mini game</div>
+  <div class="game-title">Rep<br><em>Counter.</em></div>
+  <p class="game-sub">Click the barbell to earn Fitness Points. Spend them on upgrades to get swole faster.</p>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-val" id="pts">0</div>
+      <div class="stat-lbl">Fitness Points</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val" id="reps">0</div>
+      <div class="stat-lbl">Total Reps</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val" id="multiplier">1x</div>
+      <div class="stat-lbl">Multiplier</div>
+    </div>
+  </div>
+
+  <div class="barbell-wrap">
+    <div class="barbell" id="barbell" onclick="doRep(event)">
+      <div class="plate plate-45"></div>
+      <div class="plate plate-25"></div>
+      <div class="plate plate-10"></div>
+      <div class="sleeve"></div>
+      <div class="bar"></div>
+      <div class="sleeve"></div>
+      <div class="plate plate-10"></div>
+      <div class="plate plate-25"></div>
+      <div class="plate plate-45"></div>
+    </div>
+  </div>
+
+  <div class="upgrades-title">Upgrades</div>
+  <div class="upgrades" id="upgrades"></div>
+</div>
+
+<script>
+let points = 0;
+let reps = 0;
+let clickMultiplier = 1;
+let autoInterval = null;
+let autoRate = 0;
+
+const upgrades = [
+  { id: 'preworkout', name: 'Pre-Workout', desc: '2x click multiplier', cost: 50, owned: 0, max: 1, effect: () => { clickMultiplier *= 2; } },
+  { id: 'creatine', name: 'Creatine', desc: '3x click multiplier', cost: 200, owned: 0, max: 1, effect: () => { clickMultiplier *= 3; } },
+  { id: 'spotter', name: 'Spotter', desc: 'Auto-rep every 5 seconds', cost: 500, owned: 0, max: 3, effect: () => { autoRate += 1; startAuto(); } },
+  { id: 'Honey + Salt Pump', name: 'Honey + Salt Pump', desc: 'Auto-rep every 2 seconds', cost: 2000, owned: 0, max: 3, effect: () => { autoRate += 3; startAuto(); } },
+  { id: 'steroids', name: '💊 Steroid Dealer', desc: '10x EVERYTHING — no questions asked', cost: 10000, owned: 0, max: 1, effect: () => { clickMultiplier *= 10; autoRate *= 10; } },
+];
+
+function startAuto() {
+  if (autoInterval) clearInterval(autoInterval);
+  if (autoRate > 0) {
+    autoInterval = setInterval(() => {
+      points += autoRate * clickMultiplier;
+      reps += autoRate;
+      updateUI();
+    }, 2000);
+  }
+}
+
+function doRep(e) {
+  const earned = 1 * clickMultiplier;
+  points += earned;
+  reps += 1;
+
+  // Click FX
+  const fx = document.createElement('div');
+  fx.className = 'click-fx';
+  fx.textContent = '+' + earned + ' pts';
+  fx.style.left = (e.clientX - 30) + 'px';
+  fx.style.top = (e.clientY - 20) + 'px';
+  document.body.appendChild(fx);
+  setTimeout(() => fx.remove(), 800);
+
+  // Barbell bounce
+  const b = document.getElementById('barbell');
+  b.classList.remove('clicked');
+  void b.offsetWidth;
+  b.classList.add('clicked');
+
+  updateUI();
+}
+
+function buyUpgrade(id) {
+  const upg = upgrades.find(u => u.id === id);
+  if (!upg || points < upg.cost || upg.owned >= upg.max) return;
+  points -= upg.cost;
+  upg.owned++;
+  upg.cost = Math.floor(upg.cost * 2.5);
+  upg.effect();
+  updateUI();
+}
+
+function updateUI() {
+  document.getElementById('pts').textContent = Math.floor(points).toLocaleString();
+  document.getElementById('reps').textContent = reps.toLocaleString();
+  document.getElementById('multiplier').textContent = clickMultiplier + 'x';
+
+  const container = document.getElementById('upgrades');
+  container.innerHTML = '';
+
+  upgrades.forEach(upg => {
+    const isMaxed = upg.owned >= upg.max;
+    const canAfford = points >= upg.cost;
+    const div = document.createElement('div');
+    div.className = 'upgrade' + (canAfford && !isMaxed ? ' affordable' : '') + (isMaxed ? ' owned' : '');
+    div.innerHTML = `
+      <div class="upgrade-info">
+        <div class="upgrade-name">${upg.name}</div>
+        <div class="upgrade-desc">${upg.desc}</div>
+        ${upg.owned > 0 ? `<div class="upgrade-count">Owned: ${upg.owned}/${upg.max}</div>` : ''}
+      </div>
+      <button class="upgrade-btn ${isMaxed ? 'owned-btn' : ''}" onclick="buyUpgrade('${upg.id}')" ${!canAfford || isMaxed ? 'disabled' : ''}>
+        ${isMaxed ? 'Maxed' : upg.cost.toLocaleString() + ' pts'}
+      </button>
+    `;
+    container.appendChild(div);
+  });
+}
+
+updateUI();
+</script>
+</body>
+</html>
