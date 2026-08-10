@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,9 @@
   {% seo %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/gymgeek.css' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
@@ -21,7 +24,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMS5WHW7F7"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-EMS5WHW7F7');
@@ -29,29 +32,29 @@
 </head>
 
 <body data-layout="{{ page.layout }}">
-<div id="progress-bar"></div>
-<nav class="site-nav">
-  <a href="{{ '/' | relative_url }}" class="site-logo">GymGeek</a>
-  <div class="nav-links">
-    <a href="{{ '/workouts/' | relative_url }}">Training</a>
-    <a href="{{ '/nutrition/' | relative_url }}">Nutrition</a>
-    <a href="{{ '/gear/' | relative_url }}">Gear</a>
-    <a href="{{ '/tools/' | relative_url }}">Tools</a>
-    <a href="{{ '/about/' | relative_url }}">About</a>
-  </div>
-  <div class="nav-search">
-    <div class="search-toggle" onclick="toggleSearch()">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="8"></circle>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-      </svg>
+  <div id="progress-bar"></div>
+  <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}" class="site-logo">GymGeek</a>
+    <div class="nav-links">
+      <a href="{{ '/workouts/' | relative_url }}">Training</a>
+      <a href="{{ '/nutrition/' | relative_url }}">Nutrition</a>
+      <a href="{{ '/gear/' | relative_url }}">Gear</a>
+      <a href="{{ '/tools/' | relative_url }}">Tools</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
     </div>
-    <div class="search-box" id="search-box">
-      <input type="text" id="search-input" class="search-input" placeholder="Search articles...">
-      <div id="results-container" class="search-results"></div>
+    <div class="nav-search">
+      <div class="search-toggle" onclick="toggleSearch()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+      <div class="search-box" id="search-box">
+        <input type="text" id="search-input" class="search-input" placeholder="Search articles...">
+        <div id="results-container" class="search-results"></div>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
   <main>
@@ -63,7 +66,7 @@
     <span>Affiliate disclosure</span>
   </footer>
 
- <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
   <script>
     function toggleSearch() {
       const box = document.getElementById('search-box');
@@ -73,14 +76,14 @@
       }
     }
 
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', function (e) {
       const nav = document.querySelector('.nav-search');
       if (nav && !nav.contains(e.target)) {
         document.getElementById('search-box').classList.remove('open');
       }
     });
 
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
@@ -97,7 +100,7 @@
   </script>
 
   <script>
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       const el = document.querySelector('.hero-headline');
       if (!el) return;
 
@@ -139,22 +142,137 @@
 
       type();
     });
-</script>
+  </script>
 
   <div id="progress-bar"></div>
 
   <script>
-  if (document.body.getAttribute('data-layout') === 'post') {
-    window.addEventListener('scroll', function() {
-      const bar = document.getElementById('progress-bar');
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const progress = (scrollTop / docHeight) * 100;
-      bar.style.width = progress + '%';
-    });
-  }
-</script>
+    if (document.body.getAttribute('data-layout') === 'post') {
+      window.addEventListener('scroll', function () {
+        const bar = document.getElementById('progress-bar');
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = (scrollTop / docHeight) * 100;
+        bar.style.width = progress + '%';
+      });
+    }
+  </script>
 
-  
+  <script>
+    const konamiCode = [
+      'ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',
+      'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight',
+      'b', 'a'
+    ];
+    let konamiIndex = 0;
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === konamiCode[konamiIndex]) {
+        konamiIndex++;
+        if (konamiIndex === konamiCode.length) {
+          activateBeastMode();
+          konamiIndex = 0;
+        }
+      } else {
+        konamiIndex = 0;
+      }
+    });
+
+    function activateBeastMode() {
+      // Create overlay message
+      const overlay = document.createElement('div');
+      overlay.id = 'beast-overlay';
+      overlay.innerHTML = '💪 !!! BEAST MODE ACTIVATED !!! 💪';
+      document.body.appendChild(overlay);
+
+      // Beast Mode Sound
+      // 1. Initialize the Web Audio API context
+      const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+      // 2. Define the aggressive synth engine
+      function playNote(frequency, startTime, duration, volume) {
+        const osc = audioCtx.createOscillator();
+        const gainNode = audioCtx.createGain();
+        const filter = audioCtx.createBiquadFilter();
+
+        // Sawtooth waveform gives it that gritty, distorted synthwave edge
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(frequency, audioCtx.currentTime + startTime);
+
+        // High-energy lowpass filter to make it sound punchy and heavy
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(frequency * 2.5, audioCtx.currentTime + startTime);
+        filter.Q.setValueAtTime(4, audioCtx.currentTime + startTime);
+
+        // Punchy volume envelope (fast attack for gym drive, quick decay)
+        gainNode.gain.setValueAtTime(0, audioCtx.currentTime + startTime);
+        gainNode.gain.linearRampToValueAtTime(volume * 0.4, audioCtx.currentTime + startTime + 0.02);
+        gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + startTime + duration);
+
+        // Audio routing chain
+        osc.connect(filter);
+        filter.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+
+        // Start and stop execution
+        osc.start(audioCtx.currentTime + startTime);
+        osc.stop(audioCtx.currentTime + startTime + duration);
+      }
+
+      // Ultra-Dark Cyberpunk Gym Loop (5 Seconds)
+      // Tempo: Aggressive 130 BPM | Key: Heavy D Minor/Phrygian
+      // Format: playNote(frequency, startTime, duration, volume);
+
+      // ==================== BAR 1: REBEL DRUM & SUB-BASS (0.0s - 1.2s) ====================
+      // Low, rumbling industrial bass kicks (Drop to D)
+      playNote(73, 0.0, 0.20, 0.9);   // Sub-bass Drop (Low D)
+      playNote(73, 0.2, 0.10, 0.8);   // Fast double pump
+      playNote(73, 0.3, 0.10, 0.8);
+      playNote(78, 0.5, 0.15, 0.85);  // Dissonant Eb shift (Classic dark cyberpunk interval)
+      playNote(73, 0.7, 0.30, 0.9);   // Hard accent
+
+      // ==================== BAR 2: SYNTH REZ ATTACK (1.2s - 2.4s) ====================
+      // Screaming mid-range frequencies tearing through
+      playNote(146, 1.2, 0.15, 0.8);  // Mid D
+      playNote(156, 1.35, 0.15, 0.8); // Evil minor second (Eb)
+      playNote(196, 1.5, 0.15, 0.85); // G
+      playNote(220, 1.65, 0.15, 0.85); // A
+      playNote(293, 1.8, 0.40, 1.0);  // High D power scream
+      playNote(220, 2.2, 0.15, 0.8);  // Fast drop back down
+
+      // ==================== BAR 3: RUNNER SEQUENCE (2.4s - 3.6s) ====================
+      // Fast, driving mechanical pattern
+      playNote(73, 2.4, 0.10, 0.8);
+      playNote(146, 2.5, 0.10, 0.85); // Octave jump bounce
+      playNote(73, 2.6, 0.10, 0.8);
+      playNote(156, 2.7, 0.10, 0.85);
+      playNote(73, 2.8, 0.10, 0.8);
+      playNote(196, 2.9, 0.10, 0.9);
+      playNote(220, 3.1, 0.25, 0.95); // Sustained tension note
+
+      // ==================== BAR 4: THE APOCALYPSE TERMINATOR OUTRO (3.6s - 5.0s) ====================
+      // Ultra-heavy double-time burst to finish the set
+      playNote(73, 3.6, 0.08, 0.85);
+      playNote(73, 3.68, 0.08, 0.85);
+      playNote(73, 3.76, 0.08, 0.85);
+      playNote(73, 3.84, 0.08, 0.85);
+      playNote(311, 4.0, 0.15, 1.0);  // Blasting High Eb (Pure dissonance)
+      playNote(293, 4.15, 0.15, 1.0); // Resolution down to D
+      playNote(220, 4.3, 0.20, 0.9);
+      playNote(73, 4.5, 0.50, 1.0);   // Final crushing sub-bass wallout
+
+
+      // Apply beast mode class
+      document.body.classList.add('beast-mode');
+
+      // Remove after 10 seconds
+      setTimeout(function () {
+        document.body.classList.remove('beast-mode');
+        overlay.remove();
+      }, 10000);
+    }
+  </script>
+
 </body>
+
 </html>

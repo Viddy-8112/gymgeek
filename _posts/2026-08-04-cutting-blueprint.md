@@ -93,4 +93,32 @@ If your weekdays are too busy, set aside some time on the weekend mornings to do
 Remember that the goal of cardio on a cut is to keep your heart healthy and help you actively burn more calories - it's not essential, but it's helpful if you do it.
 
 
+---
+## Consistency 
+Maintaining a calorie deficit over months is the only way you'll see real progress. <br>
 
+It's important to note that if you go over your decifit by 100 - 200 calories for a day, that's perfectly fine. The important thing is that your average weekly calories are around your deficit goal.<br><br>
+For example: If my calorie goal is 1600 calories and my week looks like this:
+
+| Day | Calories |
+|-- | --|
+|MON|1600 cals|
+|TUES|1650 calS|
+|WED|1500 cals|
+|THURS|1600 cals|
+|FRI|1600 cals|
+|SAT|1800 cals|
+|SUN|1700 cals|
+
+You may think you won't lose weight because of a few over days, but your average calories looks like :<br>
+1600 + 1650 + 1500 + 1600 + 1600 + 1800 + 1700 / 7 = 1635,7 calories on average -> You're still on goal for the week and will lose the fat.<br>
+
+---
+## Cheat meals and calorie-saving 
+You're going to want a cheat meal and that's completely normal.<br>
+The important thing is that it's a cheat MEAL and not a cheat DAY - you can still recover your deficit goal from a single cheat meal, but a full cheat day can you bring you over significantly. <br>
+Schedule one day a week where you have a single cheat meal - mine is usually on a Saturday or Sunday.<br><br>
+
+Calorie-Saving is a good technique to use if you know you're going to go over your calories the next day:<br>
+Let's say you have a date, outing with the boys or a function to attend where they're serving up briyani and soji - you're gonna go over your calories bro and that's fine.<br> 
+To make sure your overall average weekly calories is still on-track, you could eat around 200 - 300 calories less the day before your outing/event - this gives you enough lee-way to eat more the next day.<br>

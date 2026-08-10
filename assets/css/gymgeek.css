@@ -590,3 +590,31 @@ a { color: inherit; text-decoration: none; }
 .post-content tr:hover td {
   background: rgba(240,230,211,0.03);
 }
+
+/* BEAST MODE */
+#beast-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #ff0000;
+  text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+  z-index: 99999;
+  animation: beastPulse 0.5s infinite alternate;
+  pointer-events: none;
+  text-align: center;
+}
+
+@keyframes beastPulse {
+  from { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+  to { transform: translate(-50%, -50%) scale(1.05); opacity: 0.8; }
+}
+
+body.beast-mode {
+  filter: hue-rotate(100deg) saturate(2) contrast(1.2);
+  transition: filter 0.5s ease;
+}
