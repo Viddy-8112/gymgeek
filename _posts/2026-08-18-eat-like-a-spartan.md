@@ -110,7 +110,7 @@ Pork tenderloin is bit harder to find, but I've seen them stocked in high-end Ch
 - Throw the pork and chickpeas in a bowl, add some sliced tomato, cucumber and onion, or even top it with some Tsatziki. 
 
 
-## Hake & Pearl Barley 
+## 4. Hake & Pearl Barley 
 
 Grains that are common to us today (like rice) weren't around in Sparta or Ancient Greece. Instead, their main grain was barley, and since South Africa is pretty much a grain-producing power house - it's easily available in almost supermarket. Pearl barley is an excellent complex carb and also high in fiber.<br>
 The ancient Greeks also ate fresh-caught fish, but I won't assume everyone reading this is a good fisherman, so let's just go with the classic hake - lean and high in protein.<br>
