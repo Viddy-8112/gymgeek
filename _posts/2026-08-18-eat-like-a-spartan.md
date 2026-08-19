@@ -6,7 +6,7 @@ description: Christoper Nolan's 'The Odyssey' showcased the strength and enduran
 image: /assets/thumbnails/greek-meals-article.webp
 ---
 
-I recently watched the newest Christopher Nolan movie, 'The Odyssey' and seeing the Spartans on-screen reminded me that ous are actually beasts.<br><br>
+I recently watched the newest Christopher Nolan movie, 'The Odyssey' and seeing the Spartans on-screen reminded me that those ous are actually beasts.<br><br>
 
 It takes a solid diet to attain the physiques and raw strength that those guys had. In fact, the Mediterranean diet is one of the healthiest out there - explains why they lived so long and could fight ruthlessly in wars.<br><br>
 
