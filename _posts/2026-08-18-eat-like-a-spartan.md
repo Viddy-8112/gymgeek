@@ -90,7 +90,7 @@ The Greek's ate (and still eat) a lot of lamb - it was pretty much a staple prot
 
 ## 3. Pork & chickpeas bowl 
 
-My first choice for the carb of this dish was potatoes, but those weren't native to Greece and only came from the Americas later on.<br>
+My first choice for the carb of this dish was potatoes, but those weren't native to Greece back then and only came from the Americas later on.<br>
 So instead, we're going with chickpeas which is a legume the Greeks and other Mediterraneans would eat often. A bonus - they're packed with protein! <br>
 Chikpeas are also easy to find in the canned food section - make sure they're in brine, not oil!<br>
 
@@ -101,19 +101,19 @@ Pork tenderloin is bit harder to find, but I've seen them stocked in high-end Ch
 
 **What You'll Need:**
 - 180g of chickpeas (drained)
-- 140g of ***cooked*** lamb tenderlon 
+- 140g of ***cooked*** pork tenderlon 
 - 1 tsp olive oil 
 
 **How To Make It:**
-- Make sure the chickpeas are completely dry and coated them with the olive olive oil and spices 
-- Air-fry the chickpeas at 180 for 10 minutes or until golden brown and crispy on the outside 
+- Make sure the chickpeas are completely dry and coat them with the olive oil and spices of you choices (adding salt helps them crisp up).
+- Air-fry the chickpeas at 180 Celcius for 10 - 15 minutes or until golden brown and crispy on the outside 
 - Throw the pork and chickpeas in a bowl, add some sliced tomato, cucumber and onion, or even top it with some Tsatziki. 
 
 
 ## 4. Hake & Pearl Barley 
 
 Grains that are common to us today (like rice) weren't around in Sparta or Ancient Greece. Instead, their main grain was barley, and since South Africa is pretty much a grain-producing power house - it's easily available in almost supermarket. Pearl barley is an excellent complex carb and also high in fiber.<br>
-The ancient Greeks also ate fresh-caught fish, but I won't assume everyone reading this is a good fisherman, so let's just go with the classic hake - lean and high in protein.<br>
+The ancient Greeks also ate fresh-caught fish, but I won't assume everyone reading this is a good fisherman lol, so let's just go with the classic hake - lean and high in protein.<br>
 
 ![Hake-Barley](/assets/greek-meals/fish-and-barley.webp)
 ![Hake-Barley-Macros](/assets/greek-meals/fish-and-barley-macros.jpeg)
